@@ -1,8 +1,8 @@
 class Mindbase < Formula
   desc "AI conversation knowledge management system with MCP integration"
   homepage "https://github.com/agiletec-inc/mindbase"
-  url "https://github.com/agiletec-inc/mindbase/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "" # Will be calculated on release
+  url "https://github.com/agiletec-inc/mindbase/archive/refs/tags/v1.0.3.tar.gz"
+  sha256 "1924dc35937dd9052091330bdb6518bc0b78e59cdd757f82cc19728f931966d2" # Will be calculated on release
   license "MIT"
   head "https://github.com/agiletec-inc/mindbase.git", branch: "master"
 
@@ -13,7 +13,7 @@ class Mindbase < Formula
 
   resource "pnpm" do
     url "https://registry.npmjs.org/pnpm/-/pnpm-9.0.0.tgz"
-    sha256 "" # Will be calculated
+    sha256 "1924dc35937dd9052091330bdb6518bc0b78e59cdd757f82cc19728f931966d2" # Will be calculated
   end
 
   def install
